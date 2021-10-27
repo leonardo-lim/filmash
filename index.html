@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmash</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="background">
+        <ul class="squares">
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+            <li class="square"></li>
+        </ul>
+    </div>
+
+    <!-- Page Loading -->
+    <div class="page-loading" id="page-loading">
+        <img src="img/logo.png" class="logo" alt="Logo" width="40">
+        <span class="line">
+    </div>
+
+    <!-- Fetch Loading -->
+    <div class="fetch-loading" id="fetch-loading">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="sm-size">
+            <label class="brand">F.</label>
+        </div>
+        <div class="lg-size">
+            <label class="brand">Filmash</label>
+        </div>
+        <div class="menu" id="menu">
+            <input type="text" class="search-box" id="search-box" placeholder="Search movies">
+            <button type="button" class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+
+    <!-- Search Result -->
+    <div class="search-result" id="search-result">
+        <div class="desc" id="desc"></div>
+        <div class="movie" id="movie"></div>
+    </div>
+
+    <!-- Homepage -->
+    <div class="homepage" id="homepage">
+        <div class="left">
+            <img src="img/person.png" alt="Person" width="600">
+        </div>
+
+        <div class="right">
+            <p class="desc">Your reliable <strong>complete</strong> and <strong>accurate</strong> movie info</p>
+            <button type="button" class="see-btn" id="see-btn"><i class="fa fa-arrow-down"></i> See Movies</button>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content" id="content">
+        <div class="top-movie">
+            <div class="left">
+                <div class="movie" id="movie"></div>
+            </div>
+            <div class="right">
+                <span>Top</span>
+                <span>Rated</span>
+                <span>Movies</span>
+                <label>Based on <a href="https://www.imdb.com/">IMDb</a></label>
+                <img src="img/hand.png" alt="Hand" width="300">
+            </div>
+        </div>
+        <div class="top-tv-show">
+            <div class="left">
+                <span>Top</span>
+                <span>Rated</span>
+                <span>Tv Shows</span>
+                <label>Based on <a href="https://www.imdb.com/">IMDb</a></label>
+                <img src="img/hand-2.png" alt="Hand" width="300">
+            </div>
+            <div class="right">
+                <div class="tv-show" id="tv-show"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal" id="modal"></div>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+        <p class="copyright" id="copyright"></p>
+        <div class="icon">
+            <a href="https://www.linkedin.com/in/leonardo-lim" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="icon">
+            <a href="https://www.github.com/leonardo-lim" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="icon">
+            <a href="https://www.instagram.com/leonardolim78" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <button class="up-btn" id="up-btn" title="Scroll Up"><i class="fa fa-arrow-up"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
